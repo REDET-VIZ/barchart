@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import React, { useRef , useEffect  } from "react";
+import { useRef , useEffect } from "react";
 
 const MultilineChart = ({ data = [], dimensions = {} }) => {
 	const svgRef = useRef(null);
